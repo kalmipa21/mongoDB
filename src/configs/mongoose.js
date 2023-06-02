@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 //Connect to database
 const URL_DB =
-  "mongodb+srv://aripsapu:<FBXNCcYbpUNYhuso>@cluster0.huxwes5.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://aripsapu:HygFrrUtYXQ8EZI5@cluster0.huxwes5.mongodb.net/?retryWrites=true&w=majority";
 try {
   mongoose.connect(URL_DB, {
     useUnifiedTopology: true,
